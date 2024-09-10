@@ -1004,6 +1004,19 @@ select {
   padding-bottom: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-96 {
+  padding-top: 24rem;
+  padding-bottom: 24rem;
+}
+
+>>>>>>> 9ee7e18d3d3a6a69dc6cbbd386ef92ecc7fc592b
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1376,6 +1389,16 @@ body {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .lg\:py-96 {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1415,6 +1438,11 @@ body {
   .xl\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .xl\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
   }
 
   .xl\:pt-0 {
@@ -1479,6 +1507,11 @@ body {
   .\32xl\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .\32xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .\32xl\:pt-12 {
