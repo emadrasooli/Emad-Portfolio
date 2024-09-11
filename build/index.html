@@ -15,49 +15,86 @@
     <title>Emad | Portfolio</title>
 </head>
 
-<body>
+<body class="w-full">
 
     <!-- Navigation Bar -->
-    <header>
+    <div id="navbar" class="px-4 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+            <div class="md:flex md:items-center md:gap-12">
+                <a class="block text-3xl font-bold text-black transition-all duration-200 hover:text-gray-900 xl:text-5xl"
+                    href="index.html">ER.</a>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="sm:flex sm:gap-4">
+                    <a class="px-4 py-2 text-base font-medium text-white transition-all duration-300 bg-black border border-white rounded-full xl:py-3 xl:px-6 xl:text-xl hover:bg-white hover:border hover:border-black hover:text-black"
+                        href="#">Let's talk <i class="fa-solid fa-arrow-right ps-2"></i></a>
+                </div>
+                <div>
+                    <button id="enterToggle">
+                        <i
+                            class="w-8 h-8 text-2xl text-black transition-all duration-200 hover:text-gray-900 fa-solid fa-bars-staggered xl:text-3xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header id="header" class="hidden mb-3 bg-black rounded-b-2xl lg:rounded-b-3xl xl:rounded-b-[50px]">
         <div class="px-4 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
             <div class="flex items-center justify-between py-4">
                 <div class="md:flex md:items-center md:gap-12">
-                    <a class="block text-3xl font-bold text-black lg:text-5xl" href="index.html">ER.</a>
+                    <a class="block text-3xl font-bold text-white transition-all duration-200 hover:text-gray-400 xl:text-5xl"
+                        href="index.html">ER.</a>
                 </div>
-
-                <!-- <div class="hidden lg:block">
-                    <nav aria-label="Global">
-                        <ul class="flex items-center gap-x-8">
-                            <li>
-                                <a class="text-xl text-gray-300 " href="#hero">About</a>
-                            </li>
-                            <li>
-                                <a class="text-xl text-gray-300 " href="#hero">Skills</a>
-                            </li>
-                            <li>
-                                <a class="text-xl text-gray-300 " href="#hero">Projects</a>
-                            </li>
-                            <li>
-                                <a class="text-xl text-gray-300 " href="#hero">Services</a>
-                            </li>
-                            <li>
-                                <a class="text-xl text-gray-300 " href="#hero">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div> -->
-
                 <div class="flex items-center gap-6">
                     <div class="sm:flex sm:gap-4">
-                        <a class="px-4 py-2 text-base font-medium text-white bg-black border-2 border-black rounded-full lg:py-3 lg:px-6 lg:text-xl hover:bg-white hover:border-2 hover:border-black hover:text-black"
+                        <a class="px-4 py-2 text-base font-medium text-white transition-all duration-300 bg-black border border-white rounded-full xl:py-3 xl:px-6 xl:text-xl hover:bg-white hover:border hover:border-black hover:text-black"
                             href="#">Let's talk <i class="fa-solid fa-arrow-right ps-2"></i></a>
                     </div>
                     <div>
-                        <button>
-                            <i class="text-2xl text-black fa-solid fa-bars-staggered lg:text-3xl"></i>
+                        <button id="closeToggle">
+                            <i
+                                class="w-8 h-8 text-2xl text-white transition-all duration-200 hover:text-slate-400 fa-solid fa-xmark xl:text-3xl"></i>
                         </button>
                     </div>
                 </div>
+            </div>
+            <hr class="mt-3 border border-gray-700/50">
+            <div class="pt-6">
+                <nav class="flex flex-col lg:flex-row">
+                    <div class="flex flex-col lg:w-1/2">
+                        <div class="py-3 cursor-pointer 2xl:py-12 lg:py-6 group">
+                            <a
+                                class="text-3xl font-bold text-white transition-all duration-300 lg:text-4xl xl:text-6xl 2xl:text-7xl group-hover:text-gray-400">About
+                                me</a>
+                        </div>
+                        <div class="py-3 cursor-pointer 2xl:py-12 lg:py-6 group">
+                            <a class="text-3xl font-bold text-white transition-all duration-300 lg:text-4xl xl:text-6xl 2xl:text-7xl group-hover:text-gray-400"
+                                href="#hero">Skills</a>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:w-1/2">
+                        <div class="py-3 cursor-pointer 2xl:py-12 lg:py-6 group">
+                            <a class="text-3xl font-bold text-white transition-all duration-300 lg:text-4xl xl:text-6xl 2xl:text-7xl group-hover:text-gray-400"
+                                href="#hero">Projects</a>
+                        </div>
+                        <div class="py-3 cursor-pointer 2xl:py-12 lg:py-6 group">
+                            <a class="text-3xl font-bold text-white transition-all duration-300 lg:text-4xl xl:text-6xl 2xl:text-7xl group-hover:text-gray-400"
+                                href="#hero">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="py-6 lg:py-12">
+                <ul class="flex gap-3 pt-6 text-2xl xl:gap-8 xl:text-3xl md:pt-0">
+                    <li><a class="p-2 px-3 text-white transition-all duration-300 hover:text-gray-500/50 rounded-xl"
+                            href=""><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li><a class="p-2 px-3 text-white transition-all duration-300 hover:text-gray-500/50 rounded-xl"
+                            href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a class="p-2 px-3 text-white transition-all duration-300 hover:text-gray-500/50 rounded-xl"
+                            href=""><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -69,7 +106,7 @@
                 <p class="text-xl font-semibold text-gray-500 lg:text-4xl">Hello! I'm Emad</p>
             </div>
             <p
-                class="pt-3 text-[50px] leading-none font-bold sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl xl:pt-0 2xl:pt-6">
+                class="flex-wrap pt-3 text-5xl font-bold leading-none sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl xl:pt-0 2xl:pt-6">
                 Crafting stunning visuals, one pixel at a time_where design meets <span
                     class="italic text-gray-500/50">Functionality</span>
             </p>
@@ -398,6 +435,7 @@
     </div>
 
 
+    <script src="main.js"></script>
 
 </body>
 
