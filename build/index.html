@@ -429,32 +429,51 @@
 
     <!-- Contact Section  -->
     <div class="px-8 mx-auto max-w-screen-2xl sm:px-12 lg:px-24">
-        <div class="flex flex-col py-36">
-            <div class="flex justify-center">
-                <p class="text-4xl font-bold"><span class="text-gray-500/50">Say Hi!</span>
-                    and tell me about your idea
-                </p>
+        <div class="py-24">
+            <div class="text-center">
+                <p class="text-2xl font-bold lg:text-3xl">Contact</p>
             </div>
-            <form action="" class="pt-6">
-                <div class="flex flex-col">
-                    <span class="font-medium text-gray-500">Name</span>
-                    <input type="text" class="mt-2 rounded-xl placeholder:text-gray-500/50"
-                        placeholder="Enter your name">
+            <div class="flex flex-col items-center justify-center pt-12 lg:justify-start lg:items-start lg:flex-row">
+                <div class="flex text-start sm:max-w-lg lg:w-1/2 2xl:max-w-full lg:pt-6">
+                    <p class="text-4xl font-bold sm:text-5xl lg:text-6xl xl:text-7xl"><span class="text-gray-500/50">Say
+                            Hi!</span>
+                        and tell me about your idea
+                    </p>
                 </div>
-                <div class="flex flex-col pt-6">
-                    <span class="font-medium text-gray-500">Email</span>
-                    <input type="email" class="mt-2 rounded-xl placeholder:text-gray-500/50"
-                        placeholder="Enter your Email">
+                <div
+                    class="w-full pt-6 xl:flex xl:flex-col xl:justify-center xl:items-center lg:pt-0 lg:ms-12 sm:max-w-sm lg:max-w-md lg:w-1/2 2xl:max-w-xl">
+                    <form action="" class="flex flex-col xl:w-full">
+                        <div class="flex flex-col">
+                            <span class="font-medium text-gray-500">Name</span>
+                            <input type="text"
+                                class="mt-2 rounded-xl placeholder:text-gray-500/50 border-gray-500/50 focus:ring-0 focus:border-black focus:border"
+                                placeholder="Enter your name">
+                            <span class="hidden pt-1 text-sm font-semibold text-red-600"><i
+                                    class="fa-solid fa-circle-exclamation pe-1"></i>Please enter your name</span>
+                        </div>
+                        <div class="flex flex-col pt-6">
+                            <span class="font-medium text-gray-500">Email</span>
+                            <input type="email"
+                                class="mt-2 rounded-xl placeholder:text-gray-500/50 border-gray-500/50 focus:ring-0 focus:border-black focus:border"
+                                placeholder="Enter your Email">
+                            <span class="hidden pt-1 text-sm font-semibold text-red-600 "><i
+                                    class="fa-solid fa-circle-exclamation pe-1"></i>Please enter your Email</span>
+                        </div>
+                        <div class="flex flex-col pt-6">
+                            <span class="font-medium text-gray-500">Message</span>
+                            <textarea
+                                class="mt-2 rounded-xl placeholder:text-gray-500/50 border-gray-500/50 focus:ring-0 focus:border-black focus:border"
+                                rows="5" placeholder="ٌWrite your message"></textarea>
+                            <span class="hidden pt-1 text-sm font-semibold text-red-600 "><i
+                                    class="fa-solid fa-circle-exclamation pe-1"></i>Please write something</span>
+                        </div>
+                        <div class="pt-6">
+                            <button
+                                class="px-12 py-2 text-xl font-medium text-white bg-black rounded-full hover:bg-slate-900">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="flex flex-col pt-6">
-                    <span class="font-medium text-gray-500">Message</span>
-                    <textarea class="mt-2 rounded-xl placeholder:text-gray-500/50" rows="5"
-                        placeholder="ٌWrite your message"></textarea>
-                </div>
-                <div class="pt-6">
-                    <button class="px-12 py-2 text-xl font-medium text-white bg-black rounded-full">Submit</button>
-                </div>
-            </form>
+            </div>
         </div>
 
 
