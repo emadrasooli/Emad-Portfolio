@@ -16,3 +16,5 @@ closeToggle.addEventListener("click", () => {
   navbar.style.display = "block";
   header.style.display = "none";
 });
+
+AOS.init();
