@@ -34,19 +34,26 @@ const submitEmail = document.getElementById("submit");
 const name = document.getElementById("fullName");
 const email = document.getElementById("email");
 const message = document.getElementById("message");
+const checkAnimation = document.getElementById("lottie-animation");
+checkAnimation.style.display = "none";
 
 submitEmail.addEventListener("click", function submit(e) {
   e.preventDefault();
   if (name.value === "") {
     document.getElementById("warnning-name").style.display = "block";
+    if (email.value === "") {
+      document.getElementById("warnning-email").style.display = "block";
+      if (message.value === "") {
+        document.getElementById("warnning-message").style.display = "block";
+      }
+    }
+  } else {
+    SendMail();
+    checkAnimation.style.display = "block";
+    setTimeout(() => {
+      checkAnimation.style.display = "none";
+    }, 2000);
   }
-  if (email.value === "") {
-    document.getElementById("warnning-email").style.display = "block";
-  }
-  if (message.value === "") {
-    document.getElementById("warnning-message").style.display = "block";
-  }
-  SendMail();
 });
 
 function SendMail() {
@@ -57,9 +64,7 @@ function SendMail() {
   };
   emailjs
     .send("service_dvjtrbi", "template_5g0irfa", params)
-    .then(function (res) {
-      alert("Successfully Send!");
-    });
+    .then(function (res) {});
 
   name.value = "";
   email.value = "";
@@ -80,4 +85,12 @@ link.addEventListener("click", function (event) {
   setTimeout(() => {
     copyMessage.style.display = "none";
   }, 3000);
+});
+
+lottie.loadAnimation({
+  container: document.getElementById("lottie-animation"), // the DOM element where the animation will be rendered
+  renderer: "svg", // Render as 'svg' (you can also use 'canvas' or 'html')
+  loop: true, // Set to 'true' if you want the animation to loop
+  autoplay: true, // Set to 'true' to autoplay the animation
+  path: "../assets/Animation - 1726572800513.json", // Path to your Lottie JSON file
 });

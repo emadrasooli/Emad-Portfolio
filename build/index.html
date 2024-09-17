@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- lottie animation  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
     <!-- Email Js  -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
@@ -478,12 +480,12 @@
                         <a href="mailto:emadrasooli2004@gmail.com?subject=Subject%20Here&body=Body%20text%20here"
                             class="pt-2 text-sm font-medium text-gray-500 transition-all duration-200 hover:text-gray-700"><i
                                 class="fa-regular fa-envelope pe-1"></i>emadrasooli2004@gmail.com</a>
-                        <div class="flex items-center align-middle">
+                        <div class="flex flex-row items-center align-middle">
                             <a id="phoneNumber"
                                 class="pt-3 text-sm font-medium text-gray-500 transition-all duration-200 cursor-pointer hover:text-gray-700"><i
                                     class="fa-solid fa-phone pe-1"></i>(+93) 794792014</a>
                             <p id="copy"
-                                class="hidden px-3 py-1 mt-1 text-sm text-green-500 bg-gray-100 rounded-md w-fit ms-3">
+                                class="hidden px-3 py-1 text-sm text-green-500 bg-gray-100 rounded-md w-fit ms-3">
                                 Copied
                             </p>
                         </div>
@@ -527,9 +529,10 @@
                             <span id="warnning-message" class="hidden pt-1 text-sm font-semibold text-red-600 "><i
                                     class="fa-solid fa-circle-exclamation pe-1"></i>Please write something</span>
                         </div>
-                        <div class="pt-6">
+                        <div class="flex pt-6">
                             <button id="submit"
                                 class="px-12 py-2 text-xl font-medium text-white bg-black rounded-full hover:bg-slate-900">Submit</button>
+                            <div id="lottie-animation" class="w-11"></div>
                         </div>
                     </form>
                 </div>
