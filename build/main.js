@@ -88,9 +88,9 @@ link.addEventListener("click", function (event) {
 });
 
 lottie.loadAnimation({
-  container: document.getElementById("lottie-animation"), // the DOM element where the animation will be rendered
-  renderer: "svg", // Render as 'svg' (you can also use 'canvas' or 'html')
-  loop: true, // Set to 'true' if you want the animation to loop
-  autoplay: true, // Set to 'true' to autoplay the animation
-  path: "../assets/Animation - 1726572800513.json", // Path to your Lottie JSON file
+  container: document.getElementById("lottie-animation"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "../assets/Animation - 1726572800513.json",
 });
