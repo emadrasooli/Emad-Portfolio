@@ -94,3 +94,10 @@ lottie.loadAnimation({
   autoplay: true,
   path: "../assets/Animation - 1726572800513.json",
 });
+
+document.getElementById("scrollUp").addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
