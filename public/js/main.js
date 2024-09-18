@@ -95,6 +95,14 @@ lottie.loadAnimation({
   path: "./assets/Animation - 1726572800513.json",
 });
 
+lottie.loadAnimation({
+  container: document.getElementById("lottie-available"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "./assets/Animation - 1726658785959.json",
+});
+
 document.getElementById("scrollUp").addEventListener("click", () => {
   window.scrollTo({
     top: 0,
