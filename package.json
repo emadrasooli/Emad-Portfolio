@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/style.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.9",

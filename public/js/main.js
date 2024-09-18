@@ -92,7 +92,7 @@ lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "../assets/Animation - 1726572800513.json",
+  path: "./assets/Animation - 1726572800513.json",
 });
 
 document.getElementById("scrollUp").addEventListener("click", () => {
