@@ -1831,6 +1831,11 @@ body {
     padding-bottom: 1.5rem;
   }
 
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .lg\:ps-6 {
     padding-inline-start: 1.5rem;
   }
