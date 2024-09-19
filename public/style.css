@@ -1330,6 +1330,11 @@ select {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1900,6 +1905,11 @@ body {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -1955,6 +1965,10 @@ body {
 
   .\32xl\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .\32xl\:pt-16 {
+    padding-top: 4rem;
   }
 
   .\32xl\:text-2xl {
