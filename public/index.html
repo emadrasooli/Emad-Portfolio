@@ -22,6 +22,9 @@
     <!-- Email Js  -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
     <title>Emad</title>
     <link rel="icon" href="./img/2m3XeTStmko8k4Qwlw0fD1tCoSW.svg" type="image/svg+xml">
@@ -30,6 +33,7 @@
 <body class="w-full">
 
     <!-- Navigation Bar -->
+
     <div id="navbar" class="px-8 mx-auto max-w-screen-2xl sm:px-12 lg:px-24">
         <div class="flex items-center justify-between py-4 ">
             <div class="md:flex md:items-center md:gap-12 group 2xl:mt-4">
@@ -337,36 +341,16 @@
 
         </div>
     </div>
-    <div class="mt-12 bg-black whitespace-nowrap" data-aos="fade-up" data-aos-duration="2000">
-        <div id="items" class="flex overflow-hidden gap-x-12 lg:gap-x-24">
-            <div id="items-slide"
-                class="flex gap-12 py-6 text-xl font-medium text-white lg:text-4xl lg:py-12 lg:gap-24 animate-slide">
-                <div class="flex items-center">
-                    <p class="px-2">Custom Design</p>
-                </div>
-
-                <div class="flex items-center">
-                    <p class="px-2">Responsive Layouts</p>
-                </div>
-
-                <div class="flex items-center">
-                    <p class="px-2">UI/UX Design</p>
-                </div>
-
-                <div class="flex items-center">
-                    <p class="px-2">Interactive Features</p>
-                </div>
-
-                <div class="flex items-center">
-                    <p class="px-2">Landing page</p>
-                </div>
-
-                <div class="flex items-center">
-                    <p class="px-2">API Integration</p>
-                </div>
-
+    <div class="mt-12 bg-black whitespace-nowrap">
+        <div class="flex overflow-hidden gap-x-12 lg:gap-x-24">
+            <div class="flex gap-12 py-6 text-xl font-medium text-white mySwiper lg:text-4xl lg:py-12 lg:gap-24">
+                <p class="px-2">Custom Design</p>
+                <p class="px-2">Responsive Layouts</p>
+                <p class="px-2">UI/UX Design</p>
+                <p class="px-2">Interactive Features</p>
+                <p class="px-2">Landing page</p>
+                <p class="px-2">API Integration</p>
             </div>
-
         </div>
     </div>
 
@@ -640,6 +624,7 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
 
