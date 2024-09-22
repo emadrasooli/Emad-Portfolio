@@ -5,16 +5,16 @@ const navbar = document.getElementById("navbar");
 // const copy = document.getElementById("items-slide").cloneNode(true);
 // document.getElementById("items").appendChild(copy);
 
-const swiper = new Swiper(".mySwiper", {
-  autoplay: {
-    delay: 5,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true,
-  },
-  loop: true,
-  slidesPerView: "auto",
-  watchSlidesProgress: true,
-});
+// const swiper = new Swiper(".mySwiper", {
+//   autoplay: {
+//     delay: 5,
+//     disableOnInteraction: false,
+//     pauseOnMouseEnter: true,
+//   },
+//   loop: true,
+//   slidesPerView: "auto",
+//   watchSlidesProgress: true,
+// });
 
 enterToggle.addEventListener("click", () => {
   navbar.style.display = "none";
