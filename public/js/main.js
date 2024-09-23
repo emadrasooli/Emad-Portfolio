@@ -2,19 +2,8 @@ const enterToggle = document.getElementById("enterToggle");
 const closeToggle = document.getElementById("closeToggle");
 const header = document.getElementById("header");
 const navbar = document.getElementById("navbar");
-// const copy = document.getElementById("items-slide").cloneNode(true);
-// document.getElementById("items").appendChild(copy);
-
-// const swiper = new Swiper(".mySwiper", {
-//   autoplay: {
-//     delay: 5,
-//     disableOnInteraction: false,
-//     pauseOnMouseEnter: true,
-//   },
-//   loop: true,
-//   slidesPerView: "auto",
-//   watchSlidesProgress: true,
-// });
+const copy = document.getElementById("items-slide").cloneNode(true);
+document.getElementById("items").appendChild(copy);
 
 enterToggle.addEventListener("click", () => {
   navbar.style.display = "none";
@@ -32,7 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("current-year").textContent = year;
 });
 
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 // Email Js
 (function () {

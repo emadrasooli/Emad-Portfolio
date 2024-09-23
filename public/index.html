@@ -49,8 +49,8 @@
                 </a>
             </div>
             <div class="flex items-center gap-6 align-middle">
-                <a class="px-4 py-2 text-sm font-medium text-white transition-all duration-300 bg-black rounded-full cursor-pointer hover:bg-gray-900"
-                    download="./assets/Emad-CV.pdf">Download CV <i class="fa-solid fa-arrow-right ps-2"></i></a>
+                <a class="px-6 py-2 text-sm font-medium text-white transition-all duration-300 bg-black rounded-full cursor-pointer hover:bg-gray-900"
+                    download="./assets/Emad-CV.pdf">Download CV</a>
                 <button id="enterToggle">
                     <i
                         class="w-8 h-8 text-2xl text-black transition-all duration-200 hover:text-gray-900 fa-solid fa-bars-staggered"></i>
@@ -81,8 +81,8 @@
                 </div>
                 <div class="flex items-center gap-6">
                     <div class="sm:flex sm:gap-4">
-                        <a class="px-4 py-2 text-sm font-semibold text-black transition-all duration-300 bg-white rounded-full hover:bg-gray-200"
-                            href="./assets/Emad-CV.pdf">Download CV <i class="fa-solid fa-arrow-right ps-2"></i></a>
+                        <a class="px-6 py-2 text-sm font-semibold text-black transition-all duration-300 bg-white rounded-full hover:bg-gray-200"
+                            href="./assets/Emad-CV.pdf">Download CV</a>
                     </div>
                     <div>
                         <button id="closeToggle">
@@ -141,11 +141,11 @@
         <div class="flex flex-col md:text-start">
             <div data-aos="fade-up" data-aos-duration="1000"
                 class="flex items-center px-2 border border-gray-300 rounded-full pe-4 w-fit">
-                <div id="lottie-available" class="w-6 pe-1"></div>
+                <div id="lottie-available" class="w-8 pe-1"></div>
                 <p class="font-medium">Available for work</p>
             </div>
             <p data-aos="fade-up" data-aos-duration="2000"
-                class="flex-wrap max-w-4xl pt-4 text-5xl font-semibold sm:text-6xl lg:text-8xl">
+                class="flex-wrap max-w-4xl pt-6 text-5xl font-semibold sm:text-6xl lg:text-7xl lg:max-w-3xl 2xl:text-8xl 2xl:max-w-4xl">
                 Developing User Centric Interfaces with Precision.
             </p>
         </div>
@@ -331,35 +331,54 @@
         </div>
     </div>
     <div class="mt-12 bg-black whitespace-nowrap">
-        <div class="flex overflow-hidden gap-x-12 lg:gap-x-24">
-            <div class="flex gap-12 py-6 text-xl font-medium text-white mySwiper lg:text-4xl lg:py-12 lg:gap-24">
-                <p class="px-2">Custom Design</p>
-                <p class="px-2">Responsive Layouts</p>
-                <p class="px-2">UI/UX Design</p>
-                <p class="px-2">Interactive Features</p>
-                <p class="px-2">Landing page</p>
-                <p class="px-2">API Integration</p>
+        <div id="items" class="flex overflow-hidden gap-x-12 lg:gap-x-24">
+            <div id="items-slide"
+                class="flex gap-12 py-6 text-xl font-medium text-white lg:text-4xl lg:py-12 lg:gap-24 animate-slide">
+                <div class="flex items-center">
+                    <p class="px-2">Custom Design</p>
+                </div>
+
+                <div class="flex items-center">
+                    <p class="px-2">Responsive Layouts</p>
+                </div>
+
+                <div class="flex items-center">
+                    <p class="px-2">UI/UX Design</p>
+                </div>
+
+                <div class="flex items-center">
+                    <p class="px-2">Interactive Features</p>
+                </div>
+
+                <div class="flex items-center">
+                    <p class="px-2">Landing page</p>
+                </div>
+
+                <div class="flex items-center">
+                    <p class="px-2">API Integration</p>
+                </div>
+
             </div>
+
         </div>
     </div>
 
     <!-- Project Section  -->
     <div id="projects" class="px-8 mx-auto max-w-screen-2xl sm:px-12 lg:px-24">
-        <div class="flex flex-col items-center gap-6 2xl:gap-12 py-36">
+        <div class="flex flex-col items-center gap-12 2xl:gap-12 py-36">
             <p class="text-2xl font-bold text-center xl:text-3xl">Projects</p>
-            <div class="flex flex-col items-center gap-6 pt-8 xl:pt-12 md:flex-row" data-aos="fade-up"
+            <div class="flex flex-col items-center gap-10 pt-8 xl:pt-12 md:flex-row" data-aos="fade-up"
                 data-aos-duration="1000">
-                <a href="https://emadrasooli.github.io/TRAcalorie/" target="_blank">
-                    <div class="relative h-48 w-72 md:h-56 md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group rounded-3xl grayscale hover:grayscale-0 duration-300 transition-all\"
+                <!-- project 1  -->
+                <div class="flex-col">
+                    <div class="relative h-48 w-72 md:h-56 rounded-3xl md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group grayscale hover:grayscale-0 duration-300 transition-all\"
                         style="background-image: url('./img/project-img/Githubfinder.jpg')">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"></div>
                         <div
-                            class="absolute overflow-hidden inset-x-0 bottom-0 rounded-b-3xl h-0 transition-all duration-500 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
+                            class="absolute inset-x-0 bottom-0 rounded-3xl h-0 transition-all duration-700 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
                             <div class="flex items-end justify-start h-full p-8">
                                 <div
                                     class="text-white transition-all duration-500 transform translate-y-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
-                                    <p class="text-sm">API Project</p>
-                                    <h2 class="pt-1 text-2xl font-bold">GitHubFind</h2>
                                     <p class="hidden pt-2 font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">Web
                                         application
                                         built
@@ -375,20 +394,27 @@
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="https://emadrasooli.github.io/TRAcalorie/" target="_blank">
-                    <div class="relative h-48 w-72 md:h-56 md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group rounded-3xl grayscale hover:grayscale-0 duration-300 transition-all"
+                    <div class="relative flex flex-row items-center pt-6">
+                        <div class="ps-3">
+                            <p class="text-sm font-medium xl:text-base">API Project</p>
+                            <h2 class="pt-1 text-xl font-bold xl:text-2xl">GitHubFind</h2>
+                        </div>
+                        <a href="" class="absolute bottom-0 right-3">
+                            <i><i class="text-xl -rotate-45 xl:text-3xl fa-solid fa-arrow-right"></i></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- project 2  -->
+                <div class="flex-col">
+                    <div class="relative h-48 w-72 md:h-56 rounded-3xl md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group grayscale hover:grayscale-0 duration-300 transition-all\"
                         style="background-image: url('./img/project-img/RaHa-charity.jpg')">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"></div>
                         <div
-                            class="absolute overflow-hidden inset-x-0 bottom-0 rounded-b-3xl h-0 transition-all duration-500 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
+                            class="absolute inset-x-0 bottom-0 rounded-3xl h-0 transition-all duration-700 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
                             <div class="flex items-end justify-start h-full p-8">
                                 <div
                                     class="text-white transition-all duration-500 transform translate-y-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
-                                    <p class="text-sm">Bootstrap Project</p>
-                                    <h2 class="pt-1 text-2xl font-bold">Raha Charity</h2>
-                                    <p
-                                        class="hidden pt-2 text-sm font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">
+                                    <p class="hidden pt-2 font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">Web
                                         I recreated
                                         the Raha Charity
                                         website
@@ -404,23 +430,29 @@
                             </div>
                         </div>
                     </div>
-                </a>
-
+                    <div class="relative flex flex-row items-center pt-6">
+                        <div class="ps-3">
+                            <p class="text-sm font-medium xl:text-base">Bootstrap Project</p>
+                            <h2 class="pt-1 text-xl font-bold xl:text-2xl">Raha Charity</h2>
+                        </div>
+                        <a href="" class="absolute bottom-0 right-3">
+                            <i><i class="text-xl -rotate-45 xl:text-3xl fa-solid fa-arrow-right"></i></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-col items-center gap-6 md:flex-row" data-aos="fade-up" data-aos-duration="1000">
-                <a href="https://emadrasooli.github.io/TRAcalorie/" target="_blank">
-                    <div class="relative h-48 w-72 md:h-56 md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group rounded-3xl grayscale hover:grayscale-0 duration-300 transition-all"
+            <div class="flex flex-col items-center gap-10 md:flex-row" data-aos="fade-up" data-aos-duration="1000">
+                <!-- project 3 -->
+                <div class="flex-col">
+                    <div class="relative h-48 w-72 md:h-56 rounded-3xl md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group grayscale hover:grayscale-0 duration-300 transition-all\"
                         style="background-image: url('./img/project-img/TRA-calori.jpg')">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"></div>
                         <div
-                            class="absolute overflow-hidden inset-x-0 bottom-0 rounded-b-3xl h-0 transition-all duration-500 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
+                            class="absolute inset-x-0 bottom-0 rounded-3xl h-0 transition-all duration-700 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
                             <div class="flex items-end justify-start h-full p-8">
                                 <div
                                     class="text-white transition-all duration-500 transform translate-y-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
-                                    <p class="text-sm">OOP JS Project</p>
-                                    <h2 class="pt-1 text-2xl font-bold">TRAcalorie</h2>
-                                    <p
-                                        class="hidden pt-2 text-sm font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">
+                                    <p class="hidden pt-2 font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">
                                         I developed
                                         a calorie tracking
                                         app using
@@ -434,21 +466,28 @@
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="https://emadrasooli.github.io/TRAcalorie/" target="_blank">
-                    <div class="relative h-48 w-72 md:h-56 md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group rounded-3xl grayscale hover:grayscale-0 duration-300 transition-all"
+                    <div class="relative flex flex-row items-center pt-6">
+                        <div class="ps-3">
+                            <p class="text-sm font-medium xl:text-base">OOP JS Project</p>
+                            <h2 class="pt-1 text-xl font-bold xl:text-2xl">TRAcalorie</h2>
+                        </div>
+                        <a href="" class="absolute bottom-0 right-3">
+                            <i><i class="text-xl -rotate-45 xl:text-3xl fa-solid fa-arrow-right"></i></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- project 4 -->
+                <div class="flex-col">
+                    <div class="relative h-48 w-72 md:h-56 rounded-3xl md:w-80 lg:h-[18rem] lg:w-[28rem] xl:w-[32rem] xl:h-[22rem] 2xl:h-[26rem] 2xl:w-[42rem] bg-center bg-cover group grayscale hover:grayscale-0 duration-300 transition-all\"
                         style="background-image: url('./img/project-img/Movix.jpg')">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"></div>
                         <div
-                            class="absolute overflow-hidden inset-x-0 bottom-0 rounded-b-3xl h-0 transition-all duration-500 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
+                            class="absolute inset-x-0 bottom-0 rounded-3xl h-0 transition-all duration-700 bg-gradient-to-t from-black from-10% to-transparent group-hover:h-3/4">
                             <div class="flex items-end justify-start h-full p-8">
                                 <div
                                     class="text-white transition-all duration-500 transform translate-y-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
-                                    <p class="text-sm">API JS Project</p>
-                                    <h2 class="pt-1 text-2xl font-bold">Movix App</h2>
-                                    <p
-                                        class="hidden pt-2 text-sm font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">
-                                        I developed
+                                    <p class="hidden pt-2 font-light lg:block lg:text-xs xl:text-sm 2xl:text-base">I
+                                        developed
                                         a responsive web
                                         application
                                         that
@@ -461,8 +500,16 @@
                             </div>
                         </div>
                     </div>
-                </a>
-
+                    <div class="relative flex flex-row items-center pt-6">
+                        <div class="ps-3">
+                            <p class="text-sm font-medium xl:text-base">API JS Project</p>
+                            <h2 class="pt-1 text-xl font-bold xl:text-2xl">Movix App</h2>
+                        </div>
+                        <a href="" class="absolute bottom-0 right-3">
+                            <i><i class="text-xl -rotate-45 xl:text-3xl fa-solid fa-arrow-right"></i></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -480,12 +527,12 @@
                             Hi!</span>
                         and tell me about your idea
                     </p>
-                    <div class="pt-6 sm:text-center lg:text-start lg:pt-12">
+                    <div class="pt-6 sm:text-center lg:text-start lg:pt-12" data-aos="fade-up" data-aos-duration="3000">
                         <a href="mailto:emadrasooli2004@gmail.com"
                             class="pt-2 text-sm font-medium text-gray-500 transition-all duration-200 hover:text-gray-700"><i
                                 class="fa-regular fa-envelope pe-1"></i>emadrasooli2004@gmail.com</a>
                     </div>
-                    <div class="pt-2 lg:pt-3 sm:text-center lg:text-start">
+                    <div class="pt-2 lg:pt-3 sm:text-center lg:text-start" data-aos="fade-up" data-aos-duration="3000">
                         <a id="phoneNumber"
                             class="pt-3 text-sm font-medium text-gray-500 transition-all duration-200 cursor-pointer hover:text-gray-700"><i
                                 class="fa-solid fa-phone pe-1"></i>(+93) 794792014</a>
@@ -493,7 +540,7 @@
                             Copied
                         </p>
                     </div>
-                    <div class="pt-2 sm:text-center lg:text-start lg:pt-3">
+                    <div class="pt-2 sm:text-center lg:text-start lg:pt-3" data-aos="fade-up" data-aos-duration="3000">
                         <a href="https://www.linkedin.com/in/m-emad-rasooli-9a308b266/" target="_blank"
                             class="text-xl text-gray-500 transition-all duration-200 pe-2 hover:text-gray-700"><i
                                 class="fa-brands fa-linkedin"></i></a>
@@ -508,7 +555,7 @@
                 <div
                     class="w-full pt-6 xl:flex xl:flex-col xl:justify-center xl:items-center lg:pt-0 lg:ms-12 sm:max-w-sm lg:max-w-md lg:w-1/2">
                     <form action="" class="flex flex-col xl:w-full">
-                        <div class="flex flex-col" data-aos="fade-up">
+                        <div class="flex flex-col">
                             <span class="font-medium text-gray-500">Name</span>
                             <input type="text" id="fullName"
                                 class="mt-2 rounded-xl placeholder:text-gray-500/50 border-gray-500/50 focus:ring-0 focus:border-black focus:border"
@@ -516,7 +563,7 @@
                             <span id="warnning-name" class="hidden pt-1 text-sm font-semibold text-red-600"><i
                                     class="fa-solid fa-circle-exclamation pe-1"></i>Please enter your name</span>
                         </div>
-                        <div class="flex flex-col pt-6" data-aos="fade-up">
+                        <div class="flex flex-col pt-6">
                             <span class="font-medium text-gray-500">Email</span>
                             <input type="email" id="email"
                                 class="mt-2 rounded-xl placeholder:text-gray-500/50 border-gray-500/50 focus:ring-0 focus:border-black focus:border"
@@ -524,7 +571,7 @@
                             <span id="warnning-email" class="hidden pt-1 text-sm font-semibold text-red-600 "><i
                                     class="fa-solid fa-circle-exclamation pe-1"></i>Please enter your Email</span>
                         </div>
-                        <div class="flex flex-col pt-6" data-aos="fade-up">
+                        <div class="flex flex-col pt-6">
                             <span class="font-medium text-gray-500">Message</span>
                             <textarea id="message"
                                 class="mt-2 rounded-xl placeholder:text-gray-500/50 border-gray-500/50 focus:ring-0 focus:border-black focus:border"
